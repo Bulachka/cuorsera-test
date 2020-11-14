@@ -64,11 +64,11 @@ h1 {
 @media (max-width: 991px) {
   .section:nth-child(2) {
     margin: 0;
-    width: calc((97% - 20px) / 2);
+    width: calc((100% - 20px) / 2);
   }
 
   .section:first-child {
-    width: calc((97% - 20px) / 2);
+    width: calc((100% - 20px) / 2);
   }
 
   .section:last-child {
