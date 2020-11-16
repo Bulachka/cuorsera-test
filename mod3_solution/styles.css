@@ -1,0 +1,89 @@
+/*
+font-family: ;
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: tomato;
+  text-shadow: white 1px 1px;
+}
+
+.navbar {
+  background-color: darkseagreen;
+  border-bottom: darkolivegreen 5px solid;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-toggle {
+  float: right;
+}
+
+#menu-categories-title {
+  font-family: 'Pangolin', cursive;
+  color: darkolivegreen;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+h3 {
+  font-family: 'Pangolin', cursive;
+  text-align: center;
+}
+
+.section {
+  font-family: 'Balsamiq Sans', cursive;
+  border: 1px solid black;
+  padding: 0 27px 0;
+  background-color: aquamarine;
+  margin-right: 20px;
+  width:calc((100% - 40px) / 3);
+  float: left;
+}
+
+.section:last-child {
+  margin: 0;
+}
+
+.row {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .section:nth-child(2) {
+    margin: 0;
+    width: calc((100% - 20px) / 2);
+  }
+
+  .section:first-child {
+    width: calc((100% - 20px) / 2);
+  }
+
+  .section:last-child {
+    margin-right: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px)  {
+  .row .section {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+}
