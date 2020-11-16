@@ -16,10 +16,6 @@ h1 {
   text-decoration: none;
 }
 
-.navbar-toggle {
-  float: right;
-}
-
 #menu-categories-title {
   font-family: 'Pangolin', cursive;
   color: darkolivegreen;
@@ -41,7 +37,6 @@ h3 {
 }
 
 .row {
-  width: 99%;
   margin: 0 auto;
 }
 
