@@ -20,7 +20,7 @@
             <a href="index.html"><h1>Food, LLC</h1></a>
           </div>
 
-          <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse"
+          <button id="Button" type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse"
                   data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -28,27 +28,19 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-<!--
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a href="menu-categories.html">
-                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
-            </li>
-            <li id="phone" class="hidden-xs">
-              <a href="tel:410-602-5008">
-                <span>410-602-5008</span></a><div>* We Deliver</div>
-            </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
+
+      <ul class="nav navbar-nav navbar-right visible-xs">
+        <li class="dropdown">
+          <a href="#Button" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+             aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#Chicken">Chicken</a></li>
+            <li><a href="#Beef">Beef</a></li>
+            <li><a href="#Sushi">Sushi</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
       </div><!-- .container -->
     </nav><!-- #header-nav -->
   </header>
@@ -57,8 +49,8 @@
     <h2 id="menu-categories-title" class="text-center">Our Menu</h2>
 
   <div class="row clearfix">
-    <section class="section">
-      <h3>Chicken</h3>
+    <section id="Chicken" class="section col-lg-4 col-md-6 col-sm-12">
+      <h3 class="text-center">Chicken</h3>
       <p>The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl
         (Gallus gallus). Chickens are one of the most common and widespread domestic animals, with a total population
         of 23.7 billion as of 2018. up from more than 19 billion in 2011. There are more chickens in the world
@@ -70,11 +62,12 @@
         subcontinent. From ancient India, the domesticated chicken spread to Lydia in western Asia Minor, and to
         Greece by the 5th century BC. Fowl had been known in Egypt since the mid-15th century BC, with the
         "bird that gives birth every day" having come to Egypt from the land between Syria and Shinar, Babylonia,
-        according to the annals of Thutmose III.</p>
+        according to the annals of Thutmose III.
+       <a href="#header-nav">Back To Top</a></p>
       </section>
 
-    <section class="section">
-      <h3>Beef</h3>
+    <section id="Beef" class="section  col-lg-4 col-md-6 col-sm-12">
+      <h3 class="text-center">Beef</h3>
       <p>Beef is the culinary name for meat from cattle, particularly skeletal muscle.
         Humans have been eating beef since prehistoric times. Beef is a source of protein and nutrients.</p>
       <p>Most beef skeletal muscle meat can be used as is by merely cutting into certain parts, such as roasts,
@@ -87,11 +80,12 @@
         spongiform encephalopathy, BSE, commonly referred to as mad cow disease), the kidneys, and the tender testicles
         of the bull (known in the United States as calf fries, prairie oysters, or Rocky Mountain oysters). Some
         intestines are cooked and eaten as is, but are more often cleaned and used as natural sausage casings.
-        The bones are used for making beef stock. Meat from younger cows (calves) is called veal.</p>
+        The bones are used for making beef stock. Meat from younger cows (calves) is called veal.
+        <a href="#header-nav">Back To Top</a> </p>
       </section>
 
-    <section class="section">
-      <h3>Sushi</h3>
+    <section id="Sushi" class="section  col-lg-4 col-md-12 col-sm-12">
+      <h3 class="text-center">Sushi</h3>
       <p>Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a traditional Japanese dish of prepared vinegared rice
         (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta),
         such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one
@@ -101,7 +95,8 @@
         imitation crab meat. Many types of sushi are vegetarian. It is often served with pickled ginger (gari), wasabi,
         and soy sauce. Daikon radish or pickled daikon (takuan) are popular garnishes for the dish.</p>
       <p>Sushi is sometimes confused with sashimi, a related dish in Japanese cuisine that consists of thinly sliced
-        raw fish, or occasionally meat, and an optional serving of rice.</p>
+        raw fish, or occasionally meat, and an optional serving of rice.
+      <a href="#header-nav">Back To Top</a></p>
       </section>
 </div>
 </body>

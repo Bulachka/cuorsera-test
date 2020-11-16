@@ -34,7 +34,6 @@ h1 {
 
 h3 {
   font-family: 'Pangolin', cursive;
-  text-align: center;
 }
 
 .section {
@@ -42,17 +41,12 @@ h3 {
   border: 1px solid black;
   padding: 0 27px 0;
   background-color: aquamarine;
-  margin-right: 20px;
-  width:calc((100% - 40px) / 3);
   float: left;
-}
-
-.section:last-child {
-  margin: 0;
+  margin-bottom: 20px;
 }
 
 .row {
-  width: 95%;
+  width: 99%;
   margin: 0 auto;
 }
 
@@ -63,27 +57,18 @@ h3 {
 }
 
 @media (max-width: 991px) {
-  .section:nth-child(2) {
-    margin: 0;
-    width: calc((100% - 20px) / 2);
+
   }
 
   .section:first-child {
-    width: calc((100% - 20px) / 2);
+
   }
 
   .section:last-child {
-    margin-right: 0;
-    margin-top: 20px;
-    width: 100%;
+
   }
 }
 
 @media (max-width: 767px)  {
-  .row .section {
-    width: 100%;
-    float: none;
-    margin-right: 0;
-    margin-top: 20px;
-  }
+
 }
