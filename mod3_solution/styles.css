@@ -12,19 +12,39 @@ h1 {
   background-color: darkseagreen;
   border-bottom: darkolivegreen 5px solid;
 }
+
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
 
-#menu-categories-title {
-  font-family: 'Pangolin', cursive;
-  color: darkolivegreen;
-  margin-top: 30px;
-  margin-bottom: 60px;
+.navbar-toggler {
+  border: #28a745 2px solid;
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+    background-color: darkolivegreen;
+}
+
+.nav-link {
+  border-bottom: darkolivegreen 3px solid;
+  background-color: greenyellow;
+  width: 100%;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  color: tomato;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 h3 {
   font-family: 'Pangolin', cursive;
+  color: tomato;
+}
+
+.row {
+  margin: 0 auto;
 }
 
 .section {
@@ -34,22 +54,4 @@ h3 {
   background-color: aquamarine;
   float: left;
   margin-bottom: 20px;
-}
-
-.row {
-  margin: 0 auto;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: block;
-}
-
-@media (max-width: 991px) {
-
-}
-
-@media (max-width: 767px)  {
-
 }

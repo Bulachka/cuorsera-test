@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,39 +16,40 @@
 </head>
 <body>
   <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <div class="navbar-brand">
-            <a href="index.html"><h1>Food, LLC</h1></a>
-                        </div>
+   <div class="container">
 
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+          <nav class="navbar navbar-light">
+  <a class="navbar-brand" id="header-nav" href="index.html"><h1>Food, LLC</h1></a>
 
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="dropdown-menu">
-            <li><a href="#Chicken">Chicken</a></li>
-            <li><a href="#Beef">Beef</a></li>
-            <li><a href="#Sushi">Sushi</a></li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
+  <button class="navbar-toggler d-none d-sm-block d-md-none" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-       </div><!-- /.navbar-header -->
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link text-center" href="#Chicken">Chicken</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-center" href="#Beef">Beef</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-center" href="#Sushi">Sushi</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
       </div><!-- .container -->
-    </nav><!-- #header-nav -->
+
   </header>
 
    <div id="main-content" class="container">
     <h2 id="menu-categories-title" class="text-center">Our Menu</h2>
 
-  <div class="row clearfix">
-    <section id="Chicken" class="section col-lg-4 col-md-6 col-sm-12">
+  <div class="row">
+    <div class="wrapper  col-lg-4 col-md-6 col-sm-12">
+    <section id="Chicken" class="section">
       <h3 class="text-center">Chicken</h3>
       <p>The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl
         (Gallus gallus). Chickens are one of the most common and widespread domestic animals, with a total population
@@ -60,9 +64,11 @@
         "bird that gives birth every day" having come to Egypt from the land between Syria and Shinar, Babylonia,
         according to the annals of Thutmose III.
        <a href="#header-nav">Back To Top</a></p>
-      </section>
+    </section>
+    </div>
 
-    <section id="Beef" class="section  col-lg-4 col-md-6 col-sm-12">
+    <div class="wrapper   col-lg-4 col-md-6 col-sm-12">
+    <section id="Beef" class="section">
       <h3 class="text-center">Beef</h3>
       <p>Beef is the culinary name for meat from cattle, particularly skeletal muscle.
         Humans have been eating beef since prehistoric times. Beef is a source of protein and nutrients.</p>
@@ -79,8 +85,10 @@
         The bones are used for making beef stock. Meat from younger cows (calves) is called veal.
         <a href="#header-nav">Back To Top</a> </p>
       </section>
+    </div>
 
-    <section id="Sushi" class="section  col-lg-4 col-md-12 col-sm-12">
+    <div class="wrapper   col-lg-4 col-md-12 col-sm-12">
+    <section id="Sushi" class="section">
       <h3 class="text-center">Sushi</h3>
       <p>Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a traditional Japanese dish of prepared vinegared rice
         (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta),
@@ -94,6 +102,7 @@
         raw fish, or occasionally meat, and an optional serving of rice.
       <a href="#header-nav">Back To Top</a></p>
       </section>
+    </div>
 </div>
 </body>
 </html>
