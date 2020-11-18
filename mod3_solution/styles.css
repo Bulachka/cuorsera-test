@@ -13,6 +13,11 @@ h1 {
   border-bottom: darkolivegreen 5px solid;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Balsamiq Sans', cursive;
+  color: maroon;
+}
+
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
@@ -22,7 +27,7 @@ h1 {
 }
 
 .navbar-toggler:focus, .navbar-toggler:hover {
-    background-color: darkolivegreen;
+  background-color: darkolivegreen;
 }
 
 .nav-link {
