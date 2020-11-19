@@ -60,11 +60,11 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 (function() {
   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
   for (var i = 0; i < names.length; i++) {
-    var name = names[i]; 
+    var name = names[i];
   if (name.charAt() === 'J' || name.charAt(0) === 'j') {
-    console.log(byeSpeaker.speak(name));
+    byeSpeaker.speak(name);
   } else {
-    console.log(helloSpeaker.speak(name));
+    helloSpeaker.speak(name);
   }
 }
 
