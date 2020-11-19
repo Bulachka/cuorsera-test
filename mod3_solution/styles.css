@@ -11,6 +11,7 @@ h1 {
 .navbar {
   background-color: darkseagreen;
   border-bottom: darkolivegreen 5px solid;
+  padding: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -24,6 +25,7 @@ h1 {
 
 .navbar-toggler {
   border: #28a745 2px solid;
+  margin-right: 15px;
 }
 
 .navbar-toggler:focus, .navbar-toggler:hover {
